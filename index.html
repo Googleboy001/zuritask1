@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Your Account</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #a5191911;
+            width: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         @media screen and (max-width:900px) {
+             .container .contact {
+                 width: 100%;
+                 height: 700px;
+                 padding: 0px;
+                 padding-bottom: 150px;
+                 padding-top: 80px;
+             }
+             .container {
+                 width: 100%;
+             }
+             .text h2 {
+                 text-align: center;
+             }
+             .text p {
+                 text-align: center;
+             }
+             .container .text {
+                 padding-top: 10px;
+                 width: 300px;
+             }
+             .container img {
+                 height: 900px;
+             }
+             .container .form {
+                 padding-top: 10px;
+             }
+
+         }
+         @media screen and (max-width:500px) {
+             
+             .container {
+                 width: auto;
+             }
+             .text h2 {
+                 text-align: center;
+             }
+             .text p {
+                 text-align: center;
+             }
+             .container .text {
+                 padding-top: 10px;
+                 width: auto;
+                 max-width: 100%;
+             }
+             .container img {
+                 height: 900px;
+             }
+             .container .form input {
+                 padding-top: 10px;
+                 width: 240px;
+                 max-width: 100%;
+             }
+             .container .form {
+                 width: 300px;
+             }
+             .container .action {
+                 width: auto;
+             }
+             .contact .text h2 {
+                 font-size: 1.6rem;
+             }
+         }
+         @media screen and (max-width:380px) {
+             
+             .container {
+                 width: auto;
+             }
+             .text h2 {
+                 text-align: center;
+             }
+             .text p {
+                 text-align: center;
+             }
+             .container .text {
+                 padding-top: 10px;
+                 width: auto;
+                 max-width: 100%;
+             }
+             .container img {
+                 height: 900px;
+             }
+             .container .form input {
+                 padding-top: 10px;
+                 width: 160px;
+                 max-width: 100%;
+             }
+             .container .form {
+                 width: 220px;
+             }
+             .container .action {
+                 width: auto;
+             }
+             .contact .text h2 {
+                 font-size: 1.3rem;
+             }
+         }
+         ::placeholder {
+             font-weight: bold;
+             color: #272626;
+         }
+        .contact {
+            text-align: center;
+            padding-top: 100px;
+        }
+        .text {
+            display: inline-block;
+            vertical-align: top;
+            width: 300px;
+            padding: 40px;
+            text-align: left;
+            padding-top: 170px;
+        }
+        .text h2 {
+            padding-bottom: 15px;
+            font-size: 2rem;
+        }
+        .text p {
+            font-size: 0.6rem;
+        }
+        .form {
+            display: inline-block;
+            padding: 40px;
+            text-align: left;
+            width: 400px;
+        }
+        .form p {
+            font-size: 0.8rem;
+            text-align: center;
+            background-color: rgb(141, 1, 141);
+            margin-bottom: 20px;
+            padding: 8px;
+
+border-radius: 5px;
+        }
+        .action {
+            background-color: white;
+            color: black;
+            padding: 20px 0px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: auto;
+            font-size: 0;
+        }
+        .contact {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 600px;
+            background-color: hsla(0, 94%, 65%, 0.651);
+            font-size: 20px;
+        }
+        .form input {
+            width: 320px;
+            padding: 8px;
+            border: 1px solid #272626;
+            border-radius: 5px;
+        }
+        .submit input {
+            font-size: 0.7rem;
+            color: white;
+            text-align: center;
+            background-color: #07a82a;
+            padding: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+        .reg p {
+            font-size: 5px;
+            color: #4d4c4c;
+            background-color: white;
+        }
+        .reg p a {
+            text-decoration: none;
+            color: hotpink;
+            font-weight: bold;
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="/Images/photo_2022-06-18_09-16-52.jpg" alt="" width="100%" height="700">
+    
+        <div class="contact">
+    
+            <div class="text">
+                <h2>Learn to code by watching others</h2>
+                <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+            </div>
+    
+            <div class="form">
+
+                <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+
+                <div class="action">
+                    <form action="">
+                        <input type="text" placeholder="First Name" name="Name"><br><br>
+                        <input type="text" placeholder="Last Name" name="Name"><br><br>
+                        <input type="text" placeholder="email@example.com" name="Email"><br><br>
+                        <input type="text" placeholder="Password" name="Password"><br><br>
+                        <div class="submit">
+                            <a href="#"><input type="Submit" value="CLAIM YOUR FREE TRIAL"></a>
+                        </div>
+                        <div class="reg">
+                            <p>By clicking this button, you're agreeing to our <a href="Register page.html">Terms and Services</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+
+</body>
+</html>
